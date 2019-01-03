@@ -18,6 +18,7 @@ Every function is Browser -> FrontEnd(s1) -> BackEnd(s2) -> FrondEnd(s1) -> Brow
 To manage mysql by Go, we need to import the go-mysql driver, which can be found below:
 
 import "database/sql"
+
 import _ "github.com/go-sql-driver/mysql"
 
 
